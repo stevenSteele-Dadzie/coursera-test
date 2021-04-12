@@ -7,12 +7,70 @@
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
+    <style>
+        .cat {
+            background-color:blue;
+            font-size:21px;
+            font-style: italic;
+            font-weight: bold;
+        }
+
+        #id {
+            color:brown;
+            margin-left: 100px;
+            text-align: center;
+            height:150px;
+        }
+
+        p , div {
+            color: yellow;
+        }
+
+
+        li.sheep {
+            color:red;
+            background-color:green;
+        }
+
+        ol > li {
+            color: indianred;
+            font-weight: bold;
+            text-align: right;
+        }
+
+        section span {
+            background-color: black;
+            color: white;
+            margin-top:320px;
+        }
+
+        div+span {
+            font-size: 100px;
+
+        }
+ 
+        article ~ div {
+            color:lawngreen;
+        }
+
+
+
+
+
+
+
+
+
+
+
+    </style>
 </head>
 <body>
     <p>this is a paragraph to see if this page can load</p>
+    <h1>html lists</h1>
     <ol>
         <li>this is a test</li>
-        <li>i hope this works</li>
+        <li class="sheep";>i hope this works</li>
         <li>this better works</li>
         <li>test page works</li>
     </ol>
@@ -21,7 +79,7 @@
     <p> this is a line to find out if the browser-sync setting worked</p>
 
     <div>
-        <ul>
+        <ul class="cat";>
             <li> goat</li>
             <li> cat</li>
             <li>dog</li>
@@ -33,5 +91,85 @@
         <span>this better works</span>
     </div>
 
+    <h2>html character references</h2>
+
+    <section>
+        <span>&lt;</span>
+        <span>&gt;</span>
+        <span>&amp;</span>
+        <article>&copy;</article>
+        <p> Sometimes you just write nonsense instead&quot;of putting in dummy&quot;data (lorem ipsum) <br> just so you can write and test if a code works, this text is written to test the html not&nbsp;breaking&nbsp;space&nbsp;character</p>
+    </section>
+    <div><p>this nigga is stubborn</p></div>
+    <span> he wants to run my shit</span>
+
+
 </body>
 </html>
+
+<section>
+    <body>
+        <header>
+            <h1 id=top>This is the beginning of this page, i hope it works this time round &gt; </h1>
+        <div>
+            <ol>
+                <li><a href="#page1">#page1</a></li>
+                <li><a href="#page2">#page2</a></li>
+                <li><a href="#page3">#page3</a></li>
+                <li><a href="#page4">#page4</a></li>
+            </ol>
+        </div>
+        </header>
+        <main>
+            <article>
+                <h2 id="id"; id="page1"> this looks like the second paragraph</h2>
+                <div>Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit massa vitae est sollicitudin vestibulum. Fusce consequat cursus massa, eget auctor erat sollicitudin sed. In mollis aliquet arcu sed faucibus. Fusce at sagittis quam, at feugiat urna. Donec euismod ipsum eget felis dictum, tempor feugiat enim feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi tincidunt scelerisque libero condimentum pretium. Quisque gravida felis felis, quis tempor eros egestas sed. Curabitur et eros sapien. Proin lectus eros, convallis ut ultrices ut, tempus eget augue. Donec nec neque pellentesque dolor feugiat pretium ut sed magna. Fusce et felis id lacus rutrum porta. Quisque quis neque arcu. Phasellus vulputate, felis et fermentum placerat, quam dolor condimentum purus, sit amet tempor erat magna semper arcu. Nullam nisl urna, ultricies quis cursus eu, volutpat nec tortor. consectetur adipiscing elit. Nam suscipit massa vitae est sollicitudin vestibulum. Fusce consequat cursus massa, eget auctor erat sollicitudin sed. In mollis aliquet arcu sed faucibus. Fusce at sagittis quam, at feugiat urna. Donec euismod ipsum eget felis dictum, tempor feugiat enim feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi tincidunt scelerisque libero condimentum pretium. Quisque gravida felis felis, quis tempor eros egestas sed. Curabitur et eros sapien. Proin lectus eros, convallis ut ultrices ut, tempus eget augue. Donec nec neque pellentesque dolor feugiat pretium ut sed magna. Fusce et felis id lacus rutrum porta. Quisque quis neque arcu. Phasellus vulputate, felis et fermentum placerat, quam dolor condimentum purus, sit amet tempor erat magna semper arcu. Nullam nisl urna, ultricies quis cursus eu, volutpat nec tortor.</div>
+            </article>
+             <div>ye be sore</div>
+              <div>Ey3 hu</div>
+            
+            <article>
+                <h3 id="page2">this also looks like the third paragraph </h3>
+                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit massa vitae est sollicitudin vestibulum. Fusce consequat cursus massa, eget auctor erat sollicitudin sed. In mollis aliquet arcu sed faucibus. Fusce at sagittis quam, at feugiat urna. Donec euismod ipsum eget felis dictum, tempor feugiat enim feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi tincidunt scelerisque libero condimentum pretium. Quisque gravida felis felis, quis tempor eros egestas sed. Curabitur et eros sapien. Proin lectus eros, convallis ut ultrices ut, tempus eget augue. Donec nec neque pellentesque dolor feugiat pretium ut sed magna. Fusce et felis id lacus rutrum porta. Quisque quis neque arcu. Phasellus vulputate, felis et fermentum placerat, quam dolor condimentum purus, sit amet tempor erat magnaLorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit massa vitae est sollicitudin vestibulum. Fusce consequat cursus massa, eget auctor erat sollicitudin sed. In mollis aliquet arcu sed faucibus. Fusce at sagittis quam, at feugiat urna. Donec euismod ipsum eget felis dictum, tempor feugiat enim feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi tincidunt scelerisque libero condimentum pretium. Quisque gravida felis felis, quis tempor eros egestas sed. Curabitur et eros sapien. Proin lectus eros, convallis ut ultrices ut, tempus eget augue. Donec nec neque pellentesque dolor feugiat pretium ut sed magna. Fusce et felis id lacus rutrum porta. Quisque quis neque arcu. Phasellus vulputate, felis et fermentum placerat, quam dolor condimentum purus, sit amet tempor erat magna semper arcu. Nullam nisl urna, ultricies quis cursus eu, volutpat nec tortor. semper arcu. Nullam nisl urna, ultricies quis cursus eu, volutpat nec tortor.</div>
+            </article>
+            <section>
+                <h4 id="page3">this might be the fourth paragraph</h4>
+                <article>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit massa vitae est sollicitudin vestibulum. Fusce consequat cursus massa, eget auctor erat sollicitudin sed. In mollis aliquet arcu sed faucibus. Fusce at sagittis quam, at feugiat urna. Donec euismod ipsum eget felis dictum, tempor feugiat enim feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi tincidunt scelerisque libero condimentum pretium. Quisque gravida felis felis, quis tempor eros egestas sed. Curabitur et eros sapien. Proin lectus eros, convallis ut ultrices ut, tempus eget augue. Donec nec neque pellentesque dolor feugiat pretium ut sed magna. Fusce et felis id lacus rutrum porta. Quisque quis neque arcu. Phasellus vulputate, felis et fermentum placerat, quam dolor condimentum purus,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit massa vitae est sollicitudin vestibulum. Fusce consequat cursus massa, eget auctor erat sollicitudin sed. In mollis aliquet arcu sed faucibus. Fusce at sagittis quam, at feugiat urna. Donec euismod ipsum eget felis dictum, tempor feugiat enim feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi tincidunt scelerisque libero condimentum pretium. Quisque gravida felis felis, quis tempor eros egestas sed. Curabitur et eros sapien. Proin lectus eros, convallis ut ultrices ut, tempus eget augue. Donec nec neque pellentesque dolor feugiat pretium ut sed magna. Fusce et felis id lacus rutrum porta. Quisque quis neque arcu. Phasellus vulputate, felis et fermentum placerat, quam dolor condimentum purus, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit massa vitae est sollicitudin vestibulum. Fusce consequat cursus massa, eget auctor erat sollicitudin sed. In mollis aliquet arcu sed faucibus. Fusce at sagittis quam, at feugiat urna. Donec euismod ipsum eget felis dictum, tempor feugiat enim feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi tincidunt scelerisque libero condimentum pretium. Quisque gravida felis felis, quis tempor eros egestas sed. Curabitur et eros sapien. Proin lectus eros, convallis ut ultrices ut, tempus eget augue. Donec nec neque pellentesque dolor feugiat pretium ut sed magna. Fusce et felis id lacus rutrum porta. Quisque quis neque arcu. Phasellus vulputate, felis et fermentum placerat, quam dolor condimentum purus, sit amet tempor erat magna semper arcu. Nullam nisl urna, ultricies quis cursus eu, volutpat nec tortor.sit amet tempor erat magna semper arcu. Nullam nisl urna, ultricies quis cursus eu, volutpat nec tortor. sit amet tempor erat magna semper arcu. Nullam nisl urna, ultricies quis cursus eu, volutpat nec tortor. <article>        
+            </section>  
+            <div>
+                <h5 id="page4"> this definitely has to be the last paragraph</h5>
+                <article>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit massa vitae est sollicitudin vestibulum. Fusce consequat cursus massa, eget auctor erat sollicitudin sed. In mollis aliquet arcu sed faucibus. Fusce at sagittis quam, at feugiat urna. Donec euismod ipsum eget felis dictum, tempor feugiat enim feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi tincidunt scelerisque libero condimentum pretium. Quisque gravida felis felis, quis tempor eros egestas sed. Curabitur et eros sapien. Proin lectus eros, convallis ut ultrices ut, tempus eget augue. Donec nec neque pellentesque dolor feugiat pretium ut sed magna. Fusce et felis id lacus rutrum porta. Quisque quis neque arcu. Phasellus vulputate, felis et fermentum placerat, quam dolor condimentum purus, sit amet tempor erat magna semper arcu. Nullam nisl urna, ultricies quis cursus eu, volutpat nec tortor.</article>
+                <a href="#top">go back to start</a>
+            </div>
+            <div>
+                <!--Selectors-->
+            </div>
+
+        </main>
+        <div>
+            <li><a href="#one">first title</a></li>
+            <li><a href="#two">second title</a></li>
+            <li><a href="#three">third title</a></li> 
+        </div>
+          
+        <section>
+            <div id="start">
+            <h1>the one</h1>
+            <span id="one">Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit massa vitae est sollicitudin vestibulum. Fusce consequat cursus massa, eget auctor erat sollicitudin sed. In mollis aliquet arcu sed faucibus. Fusce at sagittis quam, at feugiat urna. Donec euismod ipsum eget felis dictum, tempor feugiat enim feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi tincidunt scelerisque libero condimentum pretium. Quisque gravida felis felis, quis tempor eros egestas sed. Curabitur et eros sapien. Proin lectus eros, convallis ut ultrices ut, tempus eget augue. Donec nec neque pellentesque dolor feugiat pretium ut sed magna. Fusce et felis id lacus rutrum porta. Quisque quis neque arcu. Phasellus vulputate, felis et fermentum placerat, quam dolor condimentum purus, sit amet tempor erat magna semper arcu. Nullam nisl urna, ultricies quis cursus eu, volutpat nec tortor. consectetur adipiscing elit. Nam suscipit massa vitae est sollicitudin vestibulum. Fusce consequat cursus massa, eget auctor erat sollicitudin sed. In mollis aliquet arcu sed faucibus. Fusce at sagittis quam, at feugiat urna. Donec euismod ipsum eget felis dictum, tempor feugiat enim feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi tincidunt scelerisque libero condimentum pretium. Quisque gravida felis felis, quis tempor eros egestas sed. Curabitur et eros sapien. Proin lectus eros, convallis ut ultrices ut, tempus eget augue. Donec nec neque pellentesque dolor feugiat pretium ut sed magna. Fusce et felis id lacus rutrum porta. Quisque quis neque arcu. Phasellus vulputate, felis et fermentum placerat, quam dolor condimentum purus, sit amet tempor erat magna semper arcu. Nullam nisl urna, ultricies quis cursus eu, volutpat nec tortor.></span>
+            </div>
+            <div>
+            <h2>the second</h2>
+            <span id="two">Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit massa vitae est sollicitudin vestibulum. Fusce consequat cursus massa, eget auctor erat sollicitudin sed. In mollis aliquet arcu sed faucibus. Fusce at sagittis quam, at feugiat urna. Donec euismod ipsum eget felis dictum, tempor feugiat enim feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi tincidunt scelerisque libero condimentum pretium. Quisque gravida felis felis, quis tempor eros egestas sed. Curabitur et eros sapien. Proin lectus eros, convallis ut ultrices ut, tempus eget augue. Donec nec neque pellentesque dolor feugiat pretium ut sed magna. Fusce et felis id lacus rutrum porta. Quisque quis neque arcu. Phasellus vulputate, felis et fermentum placerat, quam dolor condimentum purus, sit amet tempor erat magna semper arcu. Nullam nisl urna, ultricies quis cursus eu, volutpat nec tortor. consectetur adipiscing elit. Nam suscipit massa vitae est sollicitudin vestibulum. Fusce consequat cursus massa, eget auctor erat sollicitudin sed. In mollis aliquet arcu sed faucibus. Fusce at sagittis quam, at feugiat urna. Donec euismod ipsum eget felis dictum, tempor feugiat enim feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi tincidunt scelerisque libero condimentum pretium. Quisque gravida felis felis, quis tempor eros egestas sed. Curabitur et eros sapien. Proin lectus eros, convallis ut ultrices ut, tempus eget augue. Donec nec neque pellentesque dolor feugiat pretium ut sed magna. Fusce et felis id lacus rutrum porta. Quisque quis neque arcu. Phasellus vulputate, felis et fermentum placerat, quam dolor condimentum purus, sit amet tempor erat magna semper arcu. Nullam nisl urna, ultricies quis cursus eu, volutpat nec tortor.a</span>
+            </div>
+            <div>
+            <h3>the third</h3>
+            <span id="three">Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam suscipit massa vitae est sollicitudin vestibulum. Fusce consequat cursus massa, eget auctor erat sollicitudin sed. In mollis aliquet arcu sed faucibus. Fusce at sagittis quam, at feugiat urna. Donec euismod ipsum eget felis dictum, tempor feugiat enim feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi tincidunt scelerisque libero condimentum pretium. Quisque gravida felis felis, quis tempor eros egestas sed. Curabitur et eros sapien. Proin lectus eros, convallis ut ultrices ut, tempus eget augue. Donec nec neque pellentesque dolor feugiat pretium ut sed magna. Fusce et felis id lacus rutrum porta. Quisque quis neque arcu. Phasellus vulputate, felis et fermentum placerat, quam dolor condimentum purus, sit amet tempor erat magna semper arcu. Nullam nisl urna, ultricies quis cursus eu, volutpat nec tortor. consectetur adipiscing elit. Nam suscipit massa vitae est sollicitudin vestibulum. Fusce consequat cursus massa, eget auctor erat sollicitudin sed. In mollis aliquet arcu sed faucibus. Fusce at sagittis quam, at feugiat urna. Donec euismod ipsum eget felis dictum, tempor feugiat enim feugiat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi tincidunt scelerisque libero condimentum pretium. Quisque gravida felis felis, quis tempor eros egestas sed. Curabitur et eros sapien. Proin lectus eros, convallis ut ultrices ut, tempus eget augue. Donec nec neque pellentesque dolor feugiat pretium ut sed magna. Fusce et felis id lacus rutrum porta. Quisque quis neque arcu. Phasellus vulputate, felis et fermentum placerat, quam dolor condimentum purus, sit amet tempor erat magna semper arcu. Nullam nisl urna, ultricies quis cursus eu, volutpat nec tortor.</span>
+            </div>
+            <a href="#start">go back to top</a>
+          </section> 
+        <footer>
+            <div>this takes us back to the top <a href="#top">go back to start</a></div>
+            <img src="image test.jpg" height="200px" width="200px" alt="this is a test image">
+        </footer>
+    </body>
+</section> 
